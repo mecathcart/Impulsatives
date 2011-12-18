@@ -1,0 +1,75 @@
+\documentclass{udthesis-pdf}
+
+\usepackage{covington}
+\usepackage{fullpage}
+%\usepackage{xyling}
+\usepackage{qtree}
+\usepackage{amsfonts}
+\usepackage{marvosym}
+\usepackage{lingtrees}
+\usepackage{tipa}
+% This should be the last package added before \begin{document}, see below.
+%\usepackage{hyperref}
+\usepackage{linguex}
+\usepackage{setspace}
+ \usepackage{natbib}
+ \bibpunct{(}{)}{;}{a}{,}{,}
+
+
+\newcommand{\doublebr}[1]{[\hspace{-.02in}[{\bf#1}]\hspace{-.02in}]}
+\newcommand{\doublebrexpand}[1]{$\left[\hspace{-.06in}\left[#1\hspace{-.5in}\right]\hspace{-.06in}\right]$}
+   \newcommand{\tab}{\hspace*{2em}}
+
+
+%\includeonly{TAP3}
+%\includeonly{Introduction5}
+
+%\includeonly{Bulgarian5}
+%\includeonly{Quechua10}
+%\includeonly{Kapitull22}
+%\includeonly{Finnish11}
+%\includeonly{Conclusion3}
+
+%\author{M.E. Cathcart}
+%\title {Impulsatives}
+
+% Set bibliography name correct for body of document
+\renewcommand{\bibname}{BIBLIOGRAPHY}
+
+% Needs to be the last packages added before \begin{document}
+\usepackage[linktocpage, colorlinks, linkcolor=black,                            
+   citecolor=black,                                                             
+   urlcolor=black,dvips]{hyperref}
+   
+   
+   
+  \hypersetup{pdfauthor={MaryEllen Cathcart},
+   pdfsubject={Doctoral Thesis},
+   pdfkeywords={desideratives, involuntary state construction, feel like construction, causative},
+   pdftitle={Impulsatives: The syntax and semantics of involuntary desire},
+   pdfcreator={pdflatex}} 
+   
+\begin{document}
+
+
+\include{TAP3-AZS} 
+%\include{TOC}
+%\tableofcontents
+\include{Introduction5}
+\include{Quechua10}
+\include{Bulgarian5}
+\include{Kapitull22}
+\include{Finnish11}
+\include{Conclusion3}
+
+\begin{singlespace}
+\bibliographystyle{agsm}
+\bibliography{/Users/mec/Documents/Resources/bibtex/mec}
+\addcontentsline{toc}{chapter}{BIBLIOGRAPHY}
+\end{singlespace}
+
+\end{document}
+
+
+
+
